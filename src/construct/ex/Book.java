@@ -6,11 +6,11 @@ public class Book {
     int page; //페이지 수
 
     Book(){
-        this("","",0);
+        this("","",0); //초기화 로직
     }
 
     Book(String title, String author){
-        this(title, author, 0);
+        this(title, author, 0); //초기화 로직
     }
 
     //모든 필드를 매개변수로 받는 생성자
