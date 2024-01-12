@@ -1,6 +1,7 @@
 package access;
 
 public class Speaker {
+    //필드
     private int volume; //private 개인적
 
     //생성자
@@ -9,6 +10,7 @@ public class Speaker {
         this.volume = volume;
     }
 
+    //메서드
     void volumeUp(){
         if(volume >= 100){
             System.out.println("음량을 증가 할 수 없습니다. 최대 음량입니다.");
