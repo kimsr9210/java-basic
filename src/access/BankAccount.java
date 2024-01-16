@@ -30,6 +30,7 @@ public class BankAccount {
     }
 
     //public 메서드 : getBalance
+    //고객이 잔액을 원함
     public int getBalance(){
         return balance;
     }
