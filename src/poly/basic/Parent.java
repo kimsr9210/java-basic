@@ -1,4 +1,4 @@
-package poly;
+package poly.basic;
 
 public class Parent {
     public void parentMethod() {
