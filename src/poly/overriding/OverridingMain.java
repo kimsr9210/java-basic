@@ -17,7 +17,14 @@ public class OverridingMain {
         //부모 변수가 자식 인스턴스 참조 (다형적 참조)
         Parent poly = new Child();
         System.out.println("Parent -> Child");
-        System.out.println("value =" + poly.value); //변수는 오버라이딩X
+        System.out.println("value =" + poly.value); //변수는 오버라이딩X //타입이 부모니까 부모먼저 찾음
         poly.method(); //메서드는 오버라이딩!
+        /*
+        메서드를 실행하려고 하는데 보니까 어? 오버라이딩 된게 있어
+        인스턴스 안에서 오버라이딩 된 메서드는 항상 우선권을 가짐
+        따라서 부모에 있는 메서드가 아니라 한칸 내려가서 오버라이딩 된 자식에 있는 메서드를 호출함
+        
+        **물론 인스턴스 안에 차일드가 있어야 가능함!
+        * */
     }
 }
