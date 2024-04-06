@@ -2,7 +2,7 @@ package poly.car0;
 
 public class Driver {
     private K3Car k3Car; //인스턴스 변수 => 지금은 인스턴스가 없음
-    private Model3Car model3Car; //추가
+    private Model3Car model3Car; //추가 => 의존관계 : 클래스 상에서 어떤 클래스를 알고 있따
 
     //새로운 차가 등장할때마다 계속 추가해주어야함
     //역할과 구현을 분리하지 않았음
